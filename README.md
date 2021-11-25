@@ -28,3 +28,10 @@ Even though this is a relatively simple analysis, you should execute it with eve
 We want to develop a successful video game. Based on personal preferences, we narrowed down the choice to two genres (shooters and role-playing games) and three platforms (PC, PlayStation/PS and Xbox). For the sake of this homework, assume that there are no tools that allow us simultaneous development for all three platforms. Use the video game sales dataset (https://github.com/fri-datascience/course_bs/blob/main/Session_04_GLM/data/videogame_sales.csv) and a gamma regression model to research how genre and platform influence the game's sales. Submit a 1-page A4 PDF report.
 
 Note: you will probably see some warnings at the beginning of the fitting process. When these warnings only appear at the beginning of the warmup phase, you can most likely just ignore them. If the diagnostics we perform on our fit give us no reasons for concern, we are good to go. If we should be bothered by these warning then subsequent diagnostics will show us that something is amiss.
+
+
+## Homework 05 - Questionnaire
+
+The purpose of this homework is to find more examples of parts of questionnaires that violate the best practices of questionnaire design. Find at least 5 but no more than 10 such examples. For each example provide a reference to the questionnaire (so we can cite it) and a short comment on what you think is wrong or could be improved.
+
+Submit the homework in a format that you consider the most appropriate (anything goes). Keep in mind that the goal is to make the handout better, so we'll literally include the best examples in the handout. Examples from different questionnaires, more serious mistakes, and examples that are not covered by other submissions will be more appreciated.

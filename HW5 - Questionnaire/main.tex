@@ -1,0 +1,101 @@
+\documentclass[9pt, journal,onecolumn]{IEEEtran}
+
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{array}
+\usepackage{textcomp}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{float}
+\usepackage{gensymb}
+\usepackage{longtable}
+\usepackage{supertabular}
+%\usepackage{multicol}
+
+\usepackage{subfig}
+
+
+\usepackage[utf8x]{inputenc}
+
+\usepackage{makecell}
+\usepackage{tabularx} % in the preamble
+\renewcommand\theadalign{bc}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+%\input{glyphtounicode}
+%\pdfgentounicode=1
+\usepackage{subfig}
+\pagenumbering{gobble}
+\graphicspath{{.}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.eps}
+
+% correct bad hyphenation here
+%\hyphenation{}
+
+% ============================================================================================
+
+\title{\vspace{0ex}
+Questionnaire
+}
+
+
+\author{Žiga Trojer\vspace{-4.0ex} 63200440}
+
+% ============================================================================================
+
+\begin{document}
+
+\maketitle
+We show 8 examples of parts of questionnaires that violate the best practices of questionnaire design.
+
+\section*{Questions}
+
+
+% ....
+\begin{tabularx}{\textwidth}{X|X|X}
+  \textbf{Question} & \textbf{Possible Answers } & \textbf{Problem}  \\
+\hline
+In the last two weeks, how frequently have adults of this household defecated in the open? \cite[p. 48]{wsp}. 
+&  Daily / occasionally / never. & This is \textbf{loaded} question, because person may feel uncomfortable with this question and they may lie. This question should be normalized, for example: \textit{Poverty is very prevalent in less developed countries, so some do not have adequate hygiene facilities.}\\ \hline
+
+
+Does Starbucks help your alertness?  \cite{starbucks}. 
+&  Strongly disagree / disagree / neutral / agree / strongly agree. & This question is \textbf{not specific enough}. Some may think that question is about Starbucks as a company and how it helps alertness. It should be stated differently, for example \textit{Does Starbucks coffee raise your alertness?}\\ \hline
+
+Compulsory health insurance is provided by ZZZS. To what extent do you think people are generally satisfied with the arrangement and implementation of this insurance? \cite{zzzs} & Very dissatisfied / dissatisfied / neither satisfied - nor dissatisfied / satisfied / very satisfied. & It is a \textbf{double-barreled question}, because they ask about satisfaction about arrangement and implementation. \\ \hline
+
+I am generally satisfied with SURS: \cite{surs} & Scale from 1 (strongly disagree) to 10 (strongly agree).   &  Scale is \textbf{too large}. It would be better to limit the scale from 1 to 5.\\ \hline
+
+How old are you? \cite{sz}& Under 20 / 21-30 / 31-50 / 51-64 / 65 or more. & This is \textbf{sensitive} question,  it should have \textit{prefer not to answer} option as some people are not happy to disclose their ages.  \\ \hline
+
+What age group do you belong to? \cite{sony} & Below 18 / 18-25 / 25 -35 / 36-45 / above 45. & It is \textbf{sensitive} question and \textbf{does not offer mutually exclusive answer option}. Should have \textit{prefer not to answer} option. If a respondent is 25 they fall into two of the answer categories. \\ \hline
+
+When you purchase electronics, how often do you buy from Sony? \cite{sony} & Always / occasionally / rarely / very rarely. & Question has \textbf{limited number of answers}, they don't represent all the possible answers. If you never bought a product from Sony, you can not answer this question. They should add an option \textit{never}. \\ \hline
+
+What is your current employment status? \cite{canada} & employed full-time / employed half-time / retired / stay at home parent / unemployed. & This is \textbf{sensitive} question and has \textbf{limited number of answers}. If a respondent have a student job, they can not answer this question. Should provide the \textit{other} and \textit{prefer not to answer} option.
+
+
+\end{tabularx}
+
+
+
+
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{bibliography}
+
+
+\end{document}
