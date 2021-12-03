@@ -35,3 +35,19 @@ Note: you will probably see some warnings at the beginning of the fitting proces
 The purpose of this homework is to find more examples of parts of questionnaires that violate the best practices of questionnaire design. Find at least 5 but no more than 10 such examples. For each example provide a reference to the questionnaire (so we can cite it) and a short comment on what you think is wrong or could be improved.
 
 Submit the homework in a format that you consider the most appropriate (anything goes). Keep in mind that the goal is to make the handout better, so we'll literally include the best examples in the handout. Examples from different questionnaires, more serious mistakes, and examples that are not covered by other submissions will be more appreciated.
+
+
+## Homework 06 - Cross Validation
+
+The happiness.csv dataset includes data of the World Happiness Report from 2017--2019. The dataset has the following columns:
+
+    The year and country columns are self explanatory.
+    The score column is the happiness score, the higher it is more happy the populants of a country are.
+    The economy column is GPD per capita.
+    The column perceived_coruption denotes how populants of a country think of corruption in it, there 0 denotes no corruption, while 1 denotes maximum corruption.
+
+The goal of this homework is to build at least three models (if you wish you can build more) that estimate how various features influence happiness. Note that you do not have to use all of the features, some might be useless (e.g. year). In the first step of your evaluation use LOOIC to determine the quality of your models. In the second step use Akaike weights and LOOIC to gain additional insight into how your models compare against each other and how you would weigh decisions of models if you were to combine multiple models together.
+
+Submit your solution in the form of a 2-page A4 PDF report.
+
+p. s. Like mentioned, if you are filling adventurous, feel free to use the whole, much richer dataset. It can be found at https://www.kaggle.com/unsdsn/world-happiness and at https://worldhappiness.report.
