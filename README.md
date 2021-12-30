@@ -51,3 +51,16 @@ The goal of this homework is to build at least three models (if you wish you can
 Submit your solution in the form of a 2-page A4 PDF report.
 
 p. s. Like mentioned, if you are filling adventurous, feel free to use the whole, much richer dataset. It can be found at https://www.kaggle.com/unsdsn/world-happiness and at https://worldhappiness.report.
+
+
+## Homework 07 - Hierarchical models
+
+Use the basketball free throw shooting data (https://github.com/fri-datascience/course_bs/blob/main/Session_03_Probabilistic_programming/data/basketball_shots.csv) to develop a hierarchical model suitable for answering the following two questions:
+
+    With what certainty can you claim that the best guard (Player #20) is on average a better free throw shooter than the best forward (Player #3)?
+
+    We take a random guard and a random forward, each of them shoots one free throw. What are the probabilities of A) the guard winning (guard makes the shot, forward misses the shot), B) the forward winning (guard misses the shot, forward makes the shot), and C) a tie (both players either miss the shot or hit the shot). Compute the probabilities for other combinations as well (guard vs. center and forward vs. center).
+
+We are interested only in free throw shots made on the traditional rim size (SpecialRim==0). For purposes of this analysis the Angle and ThrowNum variables can be discarded.
+
+Submit your solution in the form of a 1-page A4 PDF report.
